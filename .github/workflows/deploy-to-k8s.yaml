@@ -2,7 +2,9 @@ name: Deploy to k8s
 
 on:
   push:
-    branches: [ main ]
+    branches: 
+      - main
+      - master
 
 jobs:
   deploy-to-k8s:
